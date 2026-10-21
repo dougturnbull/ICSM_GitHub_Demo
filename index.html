@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js" defer></script>
+  </head>
+  <body>
+    <main class="timer">
+      <p class="eyebrow">ONE THING AT A TIME</p>
+      <h1>Simple Timer</h1>
+      <p class="description">A little space to keep track of time.</p>
+      <div id="display" class="display" role="timer" aria-label="Elapsed time">00:00:00</div>
+      <p id="status" class="status" role="status">Ready when you are.</p>
+      <div class="controls" aria-label="Timer controls">
+        <button id="start" class="primary" type="button">Start</button>
+        <button id="stop" type="button" disabled>Stop</button>
+        <button id="reset" type="button">Reset</button>
+      </div>
+      <p class="hint">Stop to pause. Start to continue. Reset for a fresh start.</p>
+    </main>
+  </body>
+</html>
